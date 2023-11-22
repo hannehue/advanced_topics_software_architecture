@@ -41,8 +41,8 @@ jobs:
         with:
           name: deployment-artifact
           path: |
-            ./srv/docker-compose.prod.yml
-            ./srv/mosquitto.conf
+            ./src/docker-compose.prod.yml
+            ./src/mosquitto.conf
   
   # Job for compiling applicaitons and uploading as an artifact
   build-application:
